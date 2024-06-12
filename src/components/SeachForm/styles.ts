@@ -47,7 +47,7 @@ export const SearchFormContainer = styled.form`
     }
     :focus{
       /* outline: 0; */
-      box-shadow: 0 0 2px 1px ${props=> props.theme["gray-400"]};
+      box-shadow: 0 0 0 1px ${props=> props.theme["green-300"]};
     }
     :active{
       background: ${props=> props.theme["green-700"]};
