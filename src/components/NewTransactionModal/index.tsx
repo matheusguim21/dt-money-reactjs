@@ -5,6 +5,7 @@ import { CloseButton, Content, Overlay, TransactionType, TransactionTypeButton }
 
 export function NewTransactionModal() {
 
+
   return (
 
 
@@ -17,6 +18,7 @@ export function NewTransactionModal() {
         </CloseButton>
 
         <form>
+
           <input type="text" placeholder="Descrição" autoFocus required />
           <input type="number" name="" id="" placeholder="Preço" required />
           <input type="text" name="" id="" placeholder="Categoria" required />
