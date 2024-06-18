@@ -1,23 +1,52 @@
 {
-  "transactions":[
-
+  "transactions": [
     {
-      "id":1,
-      "description":"Desenvolvimento de site",
-      "type":"income",
-      "category":"Venda",
-      "price":14000,
-      "createdAt":"2024-06-13T18:27:30.894Z"
-
+      "id": "1",
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2024-06-13T18:27:30.894Z"
     },
     {
-      "id":2,
-      "description":"Hamburguer",
-      "type":"outcome",
-      "category":"Alimentação",
-      "price":45,
-      "createdAt":"2024-06-13T18:27:30.894Z"
-
+      "id": "2",
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 45,
+      "createdAt": "2024-06-13T18:27:30.894Z"
+    },
+    {
+      "id": "4e60",
+      "category": "sasa",
+      "description": "asas",
+      "price": 33,
+      "type": "income",
+      "createdAt": "2024-06-18T12:03:34.768Z"
+    },
+    {
+      "id": "cff7",
+      "category": "Teste",
+      "description": "Teste",
+      "price": 45,
+      "type": "outcome",
+      "createdAt": "2024-06-18T12:04:41.601Z"
+    },
+    {
+      "id": "bb43",
+      "category": "Testando",
+      "description": "Teste",
+      "price": 45,
+      "type": "outcome",
+      "createdAt": "2024-06-18T12:29:32.561Z"
+    },
+    {
+      "id": "d1cd",
+      "category": "Aloha",
+      "description": "alo",
+      "price": 34,
+      "type": "income",
+      "createdAt": "2024-06-18T14:54:37.166Z"
     }
   ]
 }

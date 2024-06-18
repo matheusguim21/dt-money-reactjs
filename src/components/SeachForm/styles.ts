@@ -1,26 +1,22 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const SearchFormContainer = styled.form`
-
   display: flex;
   gap: 1rem;
 
-
-  input{
-    flex:1;
+  input {
+    flex: 1;
     border-radius: 6px;
-    border:0;
-    background: ${props=> props.theme["gray-900"]};
-    color: ${props=> props.theme["gray-300"]};
+    border: 0;
+    background: ${(props) => props.theme['gray-900']};
+    color: ${(props) => props.theme['gray-300']};
     padding: 1rem;
-    ::placeholder{
-      color: ${props=> props.theme["gray-500"]};
+    ::placeholder {
+      color: ${(props) => props.theme['gray-500']};
     }
-
-    
   }
 
-  button{
+  button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,32 +24,34 @@ export const SearchFormContainer = styled.form`
     width: 9.2rem;
     padding-right: 0.5rem;
     border-radius: 6px;
-    border: 1.5px solid ${props=> props.theme["green-300"]};
+    border: 1.5px solid ${(props) => props.theme['green-300']};
     background: transparent;
-    color: ${props=> props.theme["green-300"]};
+    color: ${(props) => props.theme['green-300']};
     font-size: 1rem;
     line-height: 1.6;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
-    
-    :hover{
-      background: ${props=> props.theme["green-500"]};
-      border-color: ${props=>props.theme["green-500"]};
-      color: ${props => props.theme["white"]};
-      transition: background-color 0.2s, color 0.2s, border-color 0.2s;
-      
 
+    :not(:disabled):hover {
+      background: ${(props) => props.theme['green-500']};
+      border-color: ${(props) => props.theme['green-500']};
+      color: ${(props) => props.theme.white};
+      transition:
+        background-color 0.2s,
+        color 0.2s,
+        border-color 0.2s;
     }
-    :focus{
+    :focus {
       /* outline: 0; */
-      box-shadow: 0 0 0 1px ${props=> props.theme["green-300"]};
+      box-shadow: 0 0 0 1px ${(props) => props.theme['green-300']};
     }
-    :active{
-      background: ${props=> props.theme["green-700"]};
+    :active {
+      background: ${(props) => props.theme['green-700']};
     }
-    
+    :disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
   }
- 
-
 `
